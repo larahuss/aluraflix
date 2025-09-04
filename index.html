@@ -1,114 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Meu Primeiro Site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraFlix</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <!-- Cabeçalho -->
-  <header>
-    <h1>Bem-vindo ao Meu Site</h1>
-    <p>Aprendendo HTML passo a passo 🚀</p>
-    <nav>
-      <ul>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#lista">Lista</a></li>
-        <li><a href="#tabela">Tabela</a></li>
-        <li><a href="#formulario">Formulário</a></li>
-      </ul>
-    </nav>
-    <hr>
-  </header>
 
-  <!-- Seção Sobre -->
-  <section id="sobre">
-    <h2>Sobre</h2>
-    <p>Este é meu primeiro código em HTML, reunindo exemplos básicos de tags, elementos e atributos.</p>
-    <p>Visite o <a href="https://github.com/profvivi/AluraFlix.git" target="_blank">projeto AluraFlix no GitHub</a></p>
-    <img src="https://via.placeholder.com/200" alt="Imagem de exemplo">
-  </section>
+<body> <!--Inicio, corpo do documento-->
+    <header>ALURAFLIX</header>
+    <section class="chamada">
+        <div class="chamada-texto">
+            <h1>ATRAVÉS DO ARANHAVERSO SUPERA O PRIMEIRO FILME?</h1>
+            <p>#homem-aranha</p>
+        </div>
 
-  <hr>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gt_fAE1Eg2Q?si=EEv-tsY_b1B2OwKE"
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+                web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
 
-  <!-- Seção de Títulos e Parágrafos -->
-  <section>
-    <h2>Exemplo de Títulos e Parágrafos</h2>
-    <h1>Título Principal</h1>
-    <h2>Subtítulo</h2>
-    <h3>Outro subtítulo</h3>
-    <p>Este é um parágrafo de texto.</p>
-    <p>Outro parágrafo com mais conteúdo.</p>
-  </section>
+    <!--Carrossel de imagens-->
+    <section class="recomendacoes">
+        <h2>Outras recomendações</h2>
+        <div class="outras-recomendacoes">
+            <a href="https://www.youtube.com/watch?v=10kObuxwee4">
+                <img src="https://img.youtube.com/vi/10kObuxwee4/maxresdefault.jpg" />
+            </a>
+            <a href="https://www.youtube.com/watch?v=VEdh5a0kIZE">
+                <img src="https://img.youtube.com/vi/VEdh5a0kIZE/maxresdefault.jpg" />
+            </a>
+            <a href="https://www.youtube.com/watch?v=xSaUcEzopiE">
+                <img src="https://img.youtube.com/vi/xSaUcEzopiE/maxresdefault.jpg" />
+            </a>
+            <a href="https://www.youtube.com/watch?v=N84TDkRoG0o">
+                <img src="https://img.youtube.com/vi/N84TDkRoG0o/maxresdefault.jpg" />
+            </a>
+            <a href="https://www.youtube.com/watch?v=QP2QG43VNXo">
+                <img src="https://img.youtube.com/vi/QP2QG43VNXo/maxresdefault.jpg" />
+            </a>
+        </div>
+    </section>
 
-  <hr>
+<footer>
+    <h4>Desenvolvido por Viviane</h4>
+</footer>
 
-  <!-- Seção de Listas -->
-  <section id="lista">
-    <h2>Listas em HTML</h2>
+</body><!--Fim, corpo do documento-->
 
-    <h3>Lista não ordenada:</h3>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-    </ul>
-
-    <h3>Lista ordenada:</h3>
-    <ol>
-      <li>Aprender HTML</li>
-      <li>Praticar CSS</li>
-      <li>Estudar JavaScript</li>
-    </ol>
-  </section>
-
-  <hr>
-
-  <!-- Seção de Tabela -->
-  <section id="tabela">
-    <h2>Tabela de Exemplo</h2>
-    <table border="1" cellpadding="8">
-      <tr>
-        <th>Nome</th>
-        <th>Idade</th>
-        <th>Cidade</th>
-      </tr>
-      <tr>
-        <td>Ana</td>
-        <td>20</td>
-        <td>São Paulo</td>
-      </tr>
-      <tr>
-        <td>Lucas</td>
-        <td>25</td>
-        <td>Rio de Janeiro</td>
-      </tr>
-    </table>
-  </section>
-
-  <hr>
-
-  <!-- Seção de Formulário -->
-  <section id="formulario">
-    <h2>Formulário de Contato</h2>
-    <form action="/enviar" method="post">
-      <label for="nome">Nome:</label><br>
-      <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br><br>
-
-      <label for="email">E-mail:</label><br>
-      <input type="email" id="email" name="email" placeholder="Digite seu e-mail"><br><br>
-
-      <label for="senha">Senha:</label><br>
-      <input type="password" id="senha" name="senha" placeholder="Digite sua senha"><br><br>
-
-      <button type="submit">Enviar</button>
-    </form>
-  </section>
-
-  <hr>
-
-  <!-- Rodapé -->
-  <footer>
-    <p>&copy; 2025 - Meu Primeiro Site em HTML</p>
-  </footer>
-</body>
 </html>

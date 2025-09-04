@@ -1,9 +1,9 @@
 /*variaveis*/
 :root {
-    --preto: #000;
-    --branco: #fff;
-    --lilas-claro: #eb76db;
-    --azul-médio: #2f4dd1;
+    --azul: #1a34c5;
+    --verde: #2ace69;
+    --rosa: #eb76db;
+    --laranja: #e2a521;
     --amarelo:#cfe80d;
 }
 /*corpo da página*/
@@ -28,7 +28,7 @@ header {
 }
 
 .chamada {
-    background: rgb(184, 156, 213);
+    background: rgb(7, 247, 215);
      padding-bottom: 80px;/*espaçamento inferior*/
     padding-top: 80px;/*espaçamento superior*/
     display: flex;/*alterar a disposição*/
